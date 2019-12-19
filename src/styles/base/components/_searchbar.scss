@@ -1,0 +1,105 @@
+.searchbar{
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack:center;
+  
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-orient:horizontal;
+  
+    display:-o-box;
+    -o-box-orient:horizontal;
+  
+    display: -ms-flexbox;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  
+    display: flex;
+    flex-direction: row;
+  
+    background: #e9e9e9;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+  
+    width:100%;
+    font-size:0.9rem;
+    color:#6e6e6e;
+    font-family:'Playfair Display';
+    padding: 1.12rem 0;
+}
+
+.display-table-cell{
+  width: 90%;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.display-table-cell tr .data-smaller-space{
+  width:8%;
+  text-align: left;
+}
+
+.mailListRef:hover{
+  color:#ada4a4
+}
+
+.display-table-cell tr .data-wider-space{
+  width:35%;
+}
+
+
+.giftIcon{
+  color:#e9e3e3
+}
+
+.searchStore{
+  border-style: none;
+  color:#6e6e6e;
+  width:70%;
+  height:1.9rem;
+  background: #e9e9e9;
+}
+
+.underlineDiv{
+  width:86.5%;
+  margin-left: 5.8%;
+  margin-top:0.23rem;
+  height:0.1rem;
+  background: #6e6e6e;;
+}
+
+.enter-search{
+  height: 1.9rem;
+  width:15%
+}
+
+.enter-search:hover{
+  color:#857b7b
+}
+
+input {-webkit-appearance: none; box-shadow: none; border-style:none;}
+input {-moz-appearance: none; box-shadow: none; border-style:none;}
+textarea{-webkit-appearance: none; box-shadow: none; border-style:none}
+
+
+.mailListRef{
+  font-size:0.9rem;
+  color:#6e6e6e;
+  font-family:'Playfair Display';
+}
+
+.searchForm{
+  background: black;;
+}
+
+.giftIcon{
+  height:1.2rem;
+}
+
+@media screen and (max-width: 1034px){
+  .searchbar{
+    display:none;
+  }
+}

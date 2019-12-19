@@ -1,0 +1,29 @@
+.search-small-screen{
+  background: #000000;
+  color:#fff;
+  display: none;
+}
+
+.search-table-ss{
+  margin-right: 4%;
+}
+
+.search-icon-image-ss{
+  width:1.7rem;
+  height:1.7rem;
+  background: #000000;
+}
+
+.search-table-ss tr td{
+  padding: 0.3rem;
+}
+
+.search-image-td:hover{
+  color:#9b4794;
+}
+
+@media screen and (max-width: 1034px){
+  .search-small-screen{
+    display: block;
+  }
+}
