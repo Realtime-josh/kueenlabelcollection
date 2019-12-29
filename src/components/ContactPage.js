@@ -1,8 +1,7 @@
-import React, { lazy, Suspense }  from 'react';
+import React, { lazy, Suspense} from 'react';
 import SearchBarBS from './SearchBarBS';
 import SearchBarSS from './SearchBarSS';
 import DashboardTab from './DashboardTab';
-import FirstHero from './FirstHero';
 import ShopAll from './ShopAll';
 import HairTexture from './HairTexture';
 import HairCare from '../components/HairCare';
@@ -10,12 +9,18 @@ import OurLocations from '../components/OurLocations';
 import ContactUs from '../components/ContactUs';
 import Footer from './Footer';
 
-export default () => (
+// const ContactBanner = lazy(() => import('./ContactBanner'));
+const ContactPageBody = lazy(() => import('./ContactPageBody'));
+
+export default (props) => (
   <div className='dashboard'>
     <SearchBarBS />
     <SearchBarSS />
     <DashboardTab />
-    <FirstHero />
+    <Suspense fallback={<div>Loading...</div>}>
+      {/* <ContactBanner /> */}
+      <ContactPageBody />
+    </Suspense>
     <ShopAll />
     <HairTexture />
     <HairCare />

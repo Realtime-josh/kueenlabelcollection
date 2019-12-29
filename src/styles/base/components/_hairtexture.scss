@@ -1,0 +1,83 @@
+.hair-texture-div{
+  display:-webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex:1;
+    
+  display:-moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-flex:1;
+    
+  display:-o-box;
+  -o-box-orient:vertical;
+  -o-box-flex:1;
+
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  display: flex;
+  display:-webkit-flex;
+  flex-direction: column;
+
+  float: left;
+  width:20rem;
+  height: 100%;
+  position: fixed;
+  margin-top: 50px;
+  margin-left: 130px;
+  background:#fff;
+  box-shadow: 2px 3px 3px #5e5a5a;
+  border: 1px solid #c4bfbf;
+  overflow: hidden;
+  clear: both;
+  top:0;
+}
+
+.hair-texture-category{
+  display:-webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex:1;
+    
+  display:-moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-flex:1;
+    
+  display:-o-box;
+  -o-box-orient:horizontal;
+  -o-box-flex:1;
+
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+  flex-direction: row;
+
+  display: flex;
+  display:-webkit-flex;
+  flex-direction: row;
+
+  height: 8rem;
+  width: 100%;
+  border-bottom: 1px solid #e4dddd;
+}
+
+.hair-texture-image{
+  width:30%;
+  height: 60%;
+  margin-left: 3%;
+  margin-top: 3%;
+  border-radius: 50%;
+}
+
+.hair-texture-table{
+  width: 60%;
+  margin-top: 3%;
+  margin-left: 2%;
+  // height: 100%;
+}
+
+.hair-texture-table tr{
+  text-align: left;
+}
+
+.hair-texture-th{
+  font-weight: bold;
+}

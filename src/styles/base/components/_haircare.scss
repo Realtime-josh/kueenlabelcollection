@@ -1,4 +1,4 @@
-.dashboard{
+.hair-care-div{
     display:-webkit-box;
     -webkit-box-orient: vertical;
     -webkit-box-flex:1;
@@ -14,17 +14,21 @@
     display: -ms-flexbox;
     -ms-flex-direction: column;
     flex-direction: column;
-
+  
     display: flex;
     display:-webkit-flex;
     flex-direction: column;
-
-    width:100%;
-    position:absolute;
-    left: 0%;
-    text-align: center;   
+  
+    float: left;
+    width:20rem;
+    height: 100%;
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 220px;
+    background:#fff;
+    box-shadow: 2px 3px 3px #5e5a5a;
+    border: 1px solid #c4bfbf;
+    overflow: hidden;
+    clear: both;
+    top:0;
   }
-
-@media screen and (max-width: 900px){
-
-}

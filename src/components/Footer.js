@@ -3,8 +3,8 @@ import React from 'react';
 export default () =>  (
   <footer>   
     <div className="footer__smallscreen" id="linksSocial1">
-        <p className="footerTalk" id="footerTalk1"><span id="LS">kueenlabelcollection.com</span> 
-        Market-place for quality hair extensions.
+        <p className="footerTalk" id="footerTalk1"><span id="LS">kueenlabelcollection.com </span> 
+          is market-place for quality hair extensions.
         </p>
           <nav  className="footnav" id="footnav3">
             <br/><p className="headersoclin">We Are Social</p><br/>

@@ -1,0 +1,219 @@
+.contact__banner_div{
+    width:100%;
+    display: flex;
+  }
+  
+  .contact__banner_img{
+    width:100%;
+    height: 16rem;
+  }
+  
+  .contactbody{
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+  
+    display:-moz-box;
+    -moz-box-orient:horizontal;
+  
+    display:-o-box;
+    -o-box-orient:horizontal;
+  
+    display: -ms-flexbox;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:53rem;
+    background:#ffffff;
+  }
+  
+  .contacttable{
+    width: 30%;
+    height:50%;
+    padding:0%;
+    margin-top:4%;
+    margin-left: 7%;
+    margin-right:3%;
+    background:#f7f5f5;
+  }
+  
+  .contact__form{
+    width: 60%;
+    height:80%;
+    margin-top:4%;
+    margin-right:3%;
+    background:#f7f5f5;
+  }
+  
+  .postdescription1{
+    width:70%;
+    height:60%;
+    padding:0.7rem;
+    font-size: $small-text;
+  }
+  
+  .contact__button{
+    min-width: 75%;
+    min-height:3rem;
+    border-radius:0.4rem;
+    background: $brand-button;
+    border:none;
+    color: $brand-foreground;
+    font-size:1.1rem;
+  }
+  
+  .contact__button:hover{
+    background: #bb729a;
+  }
+  
+  .contact__first{
+    text-align:right;
+  }
+  
+  .contact__second{
+    text-align: left;
+  }
+  
+  .subtle_text{
+    color:$brand-text2;
+    font-size: 1.5rem;
+    margin:2% 0%;
+  }
+  
+  .subtle_text1{
+    color:$brand-text2;
+    font-size: 1.1rem;
+  }
+  
+  .subtle_text2{
+    color:$brand-text2;
+    font-size: 0.92rem;
+  }
+  
+  .contact_icon{
+    color:#868282;
+  }
+
+input {-webkit-appearance: none; box-shadow: none; border-style:none;}
+input {-moz-appearance: none; box-shadow: none; border-style:none;}
+textarea{-webkit-appearance: none; box-shadow: none; border-style:none}
+
+.login-form input::placeholder{
+  font-size: 0.90rem;
+  font-family: $brand-font;
+  margin-left: 3px;
+  line-height: 1.1rem;
+}
+
+.login__text{
+  min-width: 70%;
+  max-width: 100%;
+  min-height: 2.0rem;
+  border-radius:0.4em;
+  padding: 0.2rem;
+}
+
+.login__text:hover{
+  background: #bb729a;
+}
+  
+  @media screen and (max-width: 900px){
+    .contact__banner_div{
+      width:100%;
+      display: flex;
+      height:39%;
+    }
+    .contactbody{
+      display:-webkit-box;
+      -webkit-box-orient:vertical;
+    
+      display:-moz-box;
+      -moz-box-orient:vertical;
+    
+      display:-o-box;
+      -o-box-orient:vertical;
+    
+      display: -ms-flexbox;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height:50rem;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      // background:#f7f5f5;
+      background:#ffffff;
+      align-items: center;
+      justify-content: start;
+      text-align: center;
+    }
+  
+    .contacttable{
+      width: 100%;
+      height:15rem;
+      margin-bottom:5%;
+      margin-top:0%;
+      margin-left: 0%;
+      padding-left:5%;
+      background:#f7f5f5;
+    }
+  
+    .contact__form{
+      width: 100%;
+      height:30rem;
+      margin-right:0%;
+      background:#f7f5f5;
+    }
+  
+    .postdescription1{
+      width:90%;
+      height:40%;
+      padding:0.7rem;
+      font-size: $small-text;
+    }
+  
+    .contact_text{
+      width:80%;
+    }
+  
+    .contact__button{
+      min-width: 90%;
+      min-height:3rem;
+      border-radius:0.4rem;
+      background: $brand-button;
+      border:none;
+      color: $brand-foreground;
+      font-size:1.1rem;
+    }
+  
+    .subtle_text{
+      color:#868282;
+      font-size: 1.1rem;
+      margin:2% 0%;
+    }
+    
+  }
+  
+  @media screen and (max-width: 400px){
+    .subtle_text{
+      color:#868282;
+      font-size: 0.8rem;
+      margin:2% 0%;
+    }
+    .subtle_text2{
+      color:#868282;
+      font-size: 0.8rem;
+      margin:2% 0%;
+    }
+  
+    .contact_icon{
+      font-size:0.9rem;
+      margin-left: 4px;
+    }
+  }
+  
