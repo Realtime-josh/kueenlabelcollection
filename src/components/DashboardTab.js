@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import kueenLogo from '../images/klclogo.jpg';
 import cart from '../images/icons/cart.png';
+import { setModalState } from '../actions/css';
 import { 
   setHoverStateCu, setHoverState, 
   setHoverStateHt, setHoverStateHc, 
@@ -9,6 +10,7 @@ import {
 
 class DashboardTab extends React.Component{
   render(){
+    const { dispatch } = this.props;
     const handleHoverShow = () => {
       this.props.dispatch(setHoverStateHt(false)); 
       this.props.dispatch(setHoverStateHc(false));  
@@ -54,7 +56,9 @@ class DashboardTab extends React.Component{
     return(
       <div className='dashboard-tab-bs' id='dashboard-tab-bs'>
         <div className='dashboardtab-div1'>
-          <a><i className="search-icon-image-sss fa fa-bars"></i></a>
+          <a onClick={() => {
+          dispatch(setModalState(true))
+        }}><i className="search-icon-image-sss fa fa-bars"></i></a>
         </div>
         <table className='dashboardtab-table' align="center">
           <tbody>

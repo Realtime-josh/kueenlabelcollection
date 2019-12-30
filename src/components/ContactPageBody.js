@@ -8,7 +8,7 @@ export default (props) => (
           <td className='contact__first'><i className="material-icons contact_icon">call</i></td>
           <td className='contact__second'>
             <p className='subtle_text1'>Reach Out</p>
-            <p className='subtle_text2'>8328651883</p>
+            <p className='subtle_text2'>832-865-1883</p>
           </td>
         </tr>
         <tr>
