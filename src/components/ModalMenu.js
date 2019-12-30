@@ -433,6 +433,7 @@ class ModalMenu extends React.Component{
           {hairContact && <div className='contactus-di'>
             <div className='contactus-unit'>
               <p onClick={() => {
+                dispatch(setModalState(undefined))
                 history.push(paths.contact);
               }}>Contact Us</p>
             </div>

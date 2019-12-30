@@ -5,12 +5,14 @@ import paths from '../helpers/paths';
 import {
   setHoverStateCu,
   setHoverStateLc, setHoverStateHt, 
-  setHoverState, setHoverStateHc 
+  setHoverState, setHoverStateHc,
+  setModalState,
 } from '../actions/css';
 
 class ContactUs extends React.Component{
   render(){
     const { hoverStatecu } = this.props.css;
+    const { dispatch } = this.props;
     const handleHoverShowCu = () => {  
       this.props.dispatch(setHoverState(false)); 
       this.props.dispatch(setHoverStateHc(false));       
@@ -26,6 +28,7 @@ class ContactUs extends React.Component{
       hoverStatecu && <div onMouseEnter={handleHoverShowCu} onMouseLeave={handleHoverHideCu} className='contactus-div'>
         <div className='contactus-unit'>
           <p onClick={() => {
+            dispatch(setModalState(undefined))
             history.push(paths.contact);
           }}>Contact Us</p>
         </div>

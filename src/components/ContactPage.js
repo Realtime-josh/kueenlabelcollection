@@ -8,12 +8,14 @@ import HairCare from '../components/HairCare';
 import OurLocations from '../components/OurLocations';
 import ContactUs from '../components/ContactUs';
 import Footer from './Footer';
+import ModalMenu from './ModalMenu'
 
 // const ContactBanner = lazy(() => import('./ContactBanner'));
 const ContactPageBody = lazy(() => import('./ContactPageBody'));
 
 export default (props) => (
   <div className='dashboard'>
+    <ModalMenu />
     <SearchBarBS />
     <SearchBarSS />
     <DashboardTab />
