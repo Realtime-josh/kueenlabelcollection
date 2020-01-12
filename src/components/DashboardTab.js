@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { history } from '../routers/AppRouter';
 import kueenLogo from '../images/klclogo.jpg';
 import cart from '../images/icons/cart.png';
 import { setModalState } from '../actions/css';
@@ -7,6 +8,7 @@ import {
   setHoverStateCu, setHoverState, 
   setHoverStateHt, setHoverStateHc, 
   setHoverStateLc } from '../actions/css';
+  import paths from '../helpers/paths'
 
 class DashboardTab extends React.Component{
   render(){
@@ -72,7 +74,9 @@ class DashboardTab extends React.Component{
               <td className='dashboardtab-td'>
                 <a onMouseEnter={handleHoverShowHC} onMouseLeave={handleHoverHideIT}>HAIR CARE <i className="fa fa-angle-down"></i></a>
               </td>
-              <td className='dashboardtab-td-img'><img className='logo-image-banner' src={kueenLogo}/></td>
+              <td onClick={() => {
+                history.push(paths.dashboard);
+              }} className='dashboardtab-td-img'><img className='logo-image-banner' src={kueenLogo}/></td>
               <td className='dashboardtab-td'><a>ABOUT US</a></td>
               <td className='dashboardtab-td'>
                 <a onMouseEnter={handleHoverShowLC} onMouseLeave={handleHoverHideIT}>OUR LOCATIONS <i className="fa fa-angle-down"></i></a>

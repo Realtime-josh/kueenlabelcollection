@@ -3,7 +3,7 @@ import React from 'react';
 export default () =>  (
   <footer>   
     <div className="footer__smallscreen" id="linksSocial1">
-        <p className="footerTalk" id="footerTalk1"><span id="LS">Quality, Timeless, Beauty and Style. kueenlabelcollection.com </span> 
+        <p className="footerTalk" id="footerTalk1"><span id="LS">Quality, Timeless, Beauty and Style. kueenlabelkollection.com </span> 
           is a market-place for quality hair extensions.
         </p>
           <nav  className="footnav" id="footnav3">
@@ -58,7 +58,7 @@ export default () =>  (
             </td>
         </tr>
         <tr>
-          <td className='first__link'><a href='#'>KUEEN LABEL COLLECTION</a></td>
+          <td className='first__link'><a href='#'>KUEEN LABEL KOLLECTION</a></td>
           <td><a href='#'>FAQs</a></td>
           <td><a href='#'>My Rewards</a></td>
         </tr>

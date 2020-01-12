@@ -9,6 +9,7 @@ import HairTexture from './HairTexture';
 import HairCare from '../components/HairCare';
 import OurLocations from '../components/OurLocations';
 import ContactUs from '../components/ContactUs';
+import AdsBanner from '../components/AdsBanner';
 import Footer from './Footer';
 
 export default () => (
@@ -17,12 +18,13 @@ export default () => (
     <SearchBarBS />
     <SearchBarSS />
     <DashboardTab />
-    <FirstHero />
     <ShopAll />
     <HairTexture />
     <HairCare />
     <OurLocations />
     <ContactUs />
+    <FirstHero />
+    <AdsBanner />
     <Footer />
   </div>
 )

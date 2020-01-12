@@ -32,7 +32,7 @@ export default (props) => (
       <input type='text' className="login__text contact_text" placeholder='Your Name' id='contact_name' /><br/><br/>
       <input type='text' className="login__text contact_text" placeholder='Your Email' id='contact_email' /><br/><br/>
       <textarea className='postdescription1' placeholder='Your Message'></textarea><br/><br/>
-      <input className='contact__button' type='submit' value='Send Enquiry' />
+      <input className='contact__button' type='submit' value='Send Inquiry' />
     </form>
   </div>
 )
