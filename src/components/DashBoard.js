@@ -10,6 +10,7 @@ import HairCare from '../components/HairCare';
 import OurLocations from '../components/OurLocations';
 import ContactUs from '../components/ContactUs';
 import AdsBanner from '../components/AdsBanner';
+import SecondHero from '../components/SecondHero';
 import Footer from './Footer';
 
 export default () => (
@@ -25,6 +26,7 @@ export default () => (
     <ContactUs />
     <FirstHero />
     <AdsBanner />
+    <SecondHero />
     <Footer />
   </div>
 )
