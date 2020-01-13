@@ -25,6 +25,39 @@
   justify-content: center; 
 }
 
+.ads-banner-div2{
+  display:-webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex:1;
+      
+  display:-moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-flex:1;
+      
+  display:-o-box;
+  -o-box-orient:vertical;
+  -o-box-flex:1;
+
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  display: flex;
+  display:-webkit-flex;
+  flex-direction: column;
+
+  width:100%;
+  text-align: center; 
+  align-items: center;
+  justify-content: center; 
+  background:#f3eeee;
+}
+
+.img-oil{
+  border-radius: 50%;
+}
+
+
 .ads-banner-header{
   width:22%;
   border: 1px solid #000000;

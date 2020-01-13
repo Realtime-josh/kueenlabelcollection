@@ -11,6 +11,7 @@ import OurLocations from '../components/OurLocations';
 import ContactUs from '../components/ContactUs';
 import AdsBanner from '../components/AdsBanner';
 import SecondHero from '../components/SecondHero';
+import AdsBannerOil from '../components/AdsBannerOil';
 import Footer from './Footer';
 
 export default () => (
@@ -27,6 +28,7 @@ export default () => (
     <FirstHero />
     <AdsBanner />
     <SecondHero />
+    <AdsBannerOil />
     <Footer />
   </div>
 )
