@@ -133,6 +133,9 @@
   .ads-banner-image-item {
     flex: 1 1 40%;
   }
+  .add-banner-list-text{
+    font-size: $small-text;
+  }
 }
 
 @media screen and (max-width: 500px) {
