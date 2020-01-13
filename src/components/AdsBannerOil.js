@@ -26,5 +26,9 @@ export default () => (
         <p>$10.99</p>
       </div>
     </div>
+
+    <div className='ads-banner-header ads-oil-button'>
+      <p className='ads-banner-text'>Shop Hair</p>
+    </div>
   </div>
 )
