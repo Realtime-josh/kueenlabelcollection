@@ -19,7 +19,7 @@ export default (props) => (
     <SearchBarBS />
     <SearchBarSS />
     <DashboardTab />
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div>Loading....</div>}>
       {/* <ContactBanner /> */}
       <ContactPageBody />
     </Suspense>
